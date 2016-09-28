@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Official Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Our project CSS -->
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    
+    
+    <nav class="navbar default-color">
+            <div class="container-fluid">
+                
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand waves-effect waves-light" href="#">Weather Ever</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="https://weather.com/forecast/news/national-forecast-20141009" target = "_blank" class="waves-effect waves-light">National Forecast <span class="sr-only">(current)</span></a></li>
+                        <li><a href="https://weather.com/weather/radar/interactive/l/USDC0001:1:US#" target = "_blank" class="waves-effect waves-light">Maps</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-expanded="false">Share Weather Ever<span class="caret"></span></a>
+                            <ul id = "dropdown" class="dropdown-menu" role="menu">
+                                
+                                <li><button role = "button" class = "facebook"><a  style = "color : white" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//travis40508.github.io/" target = "_blank">Facebook</a></button></li>
+                                <li><button role = "button" class = "google"><a style = "color : white" href="https://plus.google.com/share?url=http://Travis40508.github.io" target = "_blank">Google+</a></button></li>
+                                <li><button role = "button" class = "twitter"><a style = "color : white" href="https://twitter.com/home?status=http%3A//Travis40508.github.io" target = "_blank">Twitter</a></button></li>
+                                
+                              
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                    <div class="navbar-form navbar-right" role="search">
+                        <div class="form-group waves-effect waves-light">
+                            <input type="text" class="form-control" placeholder="Add Locations" id = "zipcode">
+                            <button id = "but" class = "glyphicon glyphicon-plus"></button>
+                            <button id = "but2" class = "glyphicon glyphicon-minus"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+ 
+    
+    <div class = "container">
+      <div class = "row">
+      <ul id = "stack">
+      
+      </ul>
+      </div>
+    </div>
+
+
+    <!-- Official JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    
+    <!-- Official Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Our project JS -->
+    <script src="weather.js"></script>
+
+</body>
+
+</html>

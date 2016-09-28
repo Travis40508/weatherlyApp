@@ -1,0 +1,158 @@
+
+body {
+    background-image : url("images/background.jpg");
+    background-size : cover;
+    width : 100%;
+    background-repeat : no-repeat;
+    background-attachment : fixed;
+    
+}
+
+img {
+    border-radius : 30px;
+    width : 100%;
+    height : 400px;
+    padding : 2%;
+    background-size : cover;
+}
+
+
+ul {
+    list-style : none;
+    
+}
+
+
+
+#stack {
+    
+    width : 80%;
+    
+}
+
+.temp {
+    position : absolute;
+    top : 25%;
+    color : white;
+    width : 100%;
+    left : 1%;
+}
+
+.sum {
+    position : absolute;
+    bottom : 30%;
+    width : 100%;
+    color : white;
+    font-weight : lighter;
+    right : 1%;
+}
+
+.line {
+    position : absolute;
+    color : white;
+    width : 80%;
+    bottom : 20%;
+    left : 10%;
+    
+}
+
+.minTemp {
+  position : absolute;
+  color : white;
+  width : 100%;
+  bottom : 15%;
+  right : 30%;
+}
+
+.min {
+  position : absolute;
+  color : white;
+  width : 100%;
+  bottom : 7%;
+  right : 30.5%;
+}
+
+.maxTemp {
+  position : absolute;
+  color : white;
+  width : 100%;
+  bottom : 15%;
+  left : 34%;
+}
+
+.max {
+  position : absolute;
+  color : white;
+  width : 100%;
+  bottom : 7%;
+  left : 33%;
+}
+
+.preChance {
+  position : absolute;
+  color : white;
+  width : 100%;
+  bottom : 15%;
+  right : 0.25%;
+}
+
+.pre {
+  position : absolute;
+  color : white;
+  width : 100%;
+  bottom : 7%;
+  right : 0.5%;
+}
+
+.place {
+    position : absolute;
+    color : white;
+    width : 90%;
+    top : 5%;
+    
+}
+
+.row {
+    width : 100%;
+    position : absolute;
+    text-align : center;
+}
+
+.navbar-header {
+    padding-bottom : 10px;
+}
+
+.facebook {
+    border-radius : 5px;
+    background-color : #3b5998;
+    color :white;
+    text-align : center;
+    width : 100%;
+    font-size : 20px;
+}
+
+.google {
+    border-radius : 5px;
+    background-color : #dd4b39;
+    color : white !important;
+    text-align : center;
+    width : 100%;
+    font-size : 20px;
+    
+}
+
+.twitter {
+    border-radius : 5px;
+    background-color : #00aced;
+    color : white;
+    text-align : center;
+    width : 100%;
+    font-size : 20px;
+}
+
+#dropdown {
+    background-color : #031023;
+    text-align : center;
+    color : white !important;
+    
+}
